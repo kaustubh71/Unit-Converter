@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+.halfpage {
+    width: full;
+    height: full;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    padding: 5%;
+}
+
+.button {
+    margin: 20px 0;
+    background: black;
+    color: white;
+    font-weight: bold;
+
+}
+
+.bottompage {
+    background-color: #1F2937;
+    width: full;
+    height: full;
+    padding: 3%
+}
+
+.heading {
+    padding: 0;
+}
+
+#inputnumber {
+    background-color: black;
+    color: white;
+}

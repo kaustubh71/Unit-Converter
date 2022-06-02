@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <div class="halfpage">
+        <h2>Metric/Imperial Unit Convertion</h2>
+       
+       <div class="inputpart"> 
+        <input type="number" id="inputnumber" > <br>
+        
+        <button class="button" onclick="metertofeet();litertogallon();kilogramtopound()">Convert</button>
+       </div> <!-- this div is for input and button only -->
+        </div> <!-- this div is for top half of the page -->
+        
+        <div class="bottompage">
+        <div class="heading">
+        <h3 class="heading">Length Meter/Feet</h3>
+        <p id="meter-feet">0 meter = 0.000 feet | 0 feet = 0.000 meter</p>
+        </div>
+        
+        <div class="heading">
+        <h3>Volume Liter/Gallon</h3>
+        <p id="liter-gallon">0 liter = 0.000 gallon | 0 gallon = 0.000 liter</p>
+        </div>
+        
+        <div class="heading">
+        <h3>Weight Kilogram/Pound</h3>
+        <p id="kilogram-pound">0 kilogram = 0.000 pound | 0 pound = 0.000 kilogram</p>
+        </div>
+        </div> <!-- this div is for bottom page -->
+        
+        <script src="index.js"></script>
+    </body>
+</html>
